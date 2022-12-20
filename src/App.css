@@ -34,3 +34,7 @@ main{
 .red{
     color: red;
 }
+
+.modo-dark td{
+    color: white;
+}
