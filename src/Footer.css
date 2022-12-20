@@ -54,14 +54,14 @@ body{
     font-weight: bold;
 }
 .Footer img:last-of-type{
-    height: 60px;
+    height: 40px;
 }
 @media screen and (max-width: 768px) {
     .Footer{
         row-gap: 0;
     }
     .Footer img{
-        width: 50px;
+        width: 40px;
     }
     .footer-up{
         grid-template-columns: 1fr;

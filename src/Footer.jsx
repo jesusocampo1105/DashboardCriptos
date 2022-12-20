@@ -1,12 +1,10 @@
 import './Footer.css';
-import LogoAngela from './img/LogoAngela.svg';
-import LogoAlejandro from './img/LogoAlejandro.svg';
-import LogoAndres from './img/LogoAndres.svg';
-import LogoBrayan from './img/LogoBrayan.svg';
-import LogoCamila from './img/LogoCamila.svg';
-import LogoJesus from './img/LogoJesus.svg';
-import LogoNicolas from './img/LogoNicolas.svg';
-import LogoDruck from './img/LogoDruck.jpeg';
+import Logo1 from './img/marca1.png';
+import Logo2 from './img/marca2.png';
+import Logo3 from './img/marca3.png';
+import Logo4 from './img/marca4.png';
+import Logo5 from './img/marca5.png';
+
 
 const Footer = () => {
     return (
@@ -25,14 +23,11 @@ const Footer = () => {
             <div className="footer-down">
                 <p>Developed by</p>
                 <div>
-                    <img src={LogoAngela} alt="Logo Angela" />
-                    <img src={LogoAndres} alt="logo Andres" />
-                    <img src={LogoBrayan} alt="logo Brayan" />
-                    <img src={LogoCamila} alt="logo Camila" />
-                    <img src={LogoJesus} alt="logo Jesus" />
-                    <img src={LogoAlejandro} alt="logo Alejandro" />
-                    <img src={LogoNicolas} alt="logo Nicolas" />
-                    <img src={LogoDruck} alt="logo Druck" />
+                    <img src={Logo1} alt="Logo Angela" />
+                    <img src={Logo2} alt="logo Andres" />
+                    <img src={Logo3} alt="logo Brayan" />
+                    <img src={Logo4} alt="logo Camila" />
+                    <img src={Logo5} alt="logo Jesus" />
                 </div>
             </div>
         </div>
